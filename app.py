@@ -5,8 +5,7 @@ st.set_page_config(page_title="Beer Fermentation - ROI Calculator ",
                    page_icon= "assets/favicon.png")
 
 st.markdown(""" <style>
-    footer {visibility: hidden;}
-    .ea3mdgi5 {padding-top: 16px;}
+    footer {visibility: hidden;}s
     .e1nzilvr5 .p {font-size: 20px;}
 </style> """, unsafe_allow_html=True)
 
