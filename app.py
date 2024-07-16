@@ -79,7 +79,7 @@ with st.expander("Reducing labour costs"):
     average_time_analysis = c5_1.number_input(label= "Average analysis time (min)", value=15)
     labour_cost_hour = c5_2.number_input(label = "Labour Cost per Hour ($)", value = 30)    
     yearly_number_samples = number_samples_batch*yearly_batches_per_tank*tank_quantity
-    estimated_time_analysis = (yearly_number_samples*average_time_analysis)/24
+    estimated_time_analysis = (yearly_number_samples*average_time_analysis)/60
     yearly_labour_costs = estimated_time_analysis * labour_cost_hour
     
     c6_0, c6_1,c6_2 = st.columns(3)
